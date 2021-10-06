@@ -1,2 +1,7 @@
+# Django #
 db.sqlite3
+__pycache__
+
+# Visual Studio Code # 
 .vscode/*
+
