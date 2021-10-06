@@ -1,6 +1,12 @@
 # Django #
 db.sqlite3
-__pycache__
+*.log
+*.pot
+*.pyc
+__pycache__/
+**/__pycache__/
+**/migrations/
+*.py[cod]
 
 # Visual Studio Code # 
 .vscode/*
