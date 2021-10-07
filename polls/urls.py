@@ -3,7 +3,9 @@ from django.urls import path
 
 # Internal imports
 from . import views
-
+# When there is other app on django project, tp identify app name,
+# => set the application namespace.
+app_name= 'polls'
 urlpatterns = [
     # ex: /polls/
     path('', views.index, name='index'),
